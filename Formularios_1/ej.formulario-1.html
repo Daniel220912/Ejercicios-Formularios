@@ -6,19 +6,19 @@
     <title> Formulario de registro - Mi web</title>
 </head>
 <body>
+    <form action="" method="get"></form>
    <h1>Formulario de mi registro</h1>
-   <form action="#" method="get"></form>
-
    <div>
     <label for="nombre">Nombre:</label>
-    <input type="text" name="nombre" id="nombre">
+    <input type="text" name="nombre" id="nombre" maxlength="50">
+    
    </div>
-
+   <br>
    <div>
     <label for="apellidos">Apellidos:</label>
-    <input type="text" name="apellidos" id="apellidos">
+    <input type="text" name="apellidos" id="apellidos" maxlength="50">
    </div>
-
+    <br>
     <label for="sexo">Sexo:</label>
    
     <input type="radio" name="hombre" id="hombre">
@@ -26,5 +26,22 @@
 
     <input type="radio" name="mujer" id="mujer">
     <label for="sexo">Mujer</label>
+    <br>
+    <br>
+    <label for="correo">Correo: </label>
+    <input type="text" name="correo" id="apellidos">
+    <br>
+    <br>
+    <input type="checkbox" name="checkbox" id="checkbox" checked>
+    <label for="info">Deseo recibir información sobre novedades y ofertas.
+    </label>
+    <br>
+    <br>
+    <input type="checkbox" name="checkbox" id="checkbox">
+    <label for="condiciones">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos.</label>
+    <br>
+    <br>
+    <class="my-input">
+                <input type="submit">
 </body>
 </html>
